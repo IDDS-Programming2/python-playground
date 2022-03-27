@@ -45,3 +45,9 @@ PRO TIP: you can use the **tab** key to let the command prompt auto-complete the
 vscode ➜ /workspaces/python-playground (main ✗) $ python hello_world.py 
 Hello, world!
 ```
+
+## Letting VSCode Make Your Life Easier
+Thanks to the Python plugin in VSCode (which is automatically installed with the container), you get
+a little "play" button in the upper-right corner when a python file is being edited. Clicking that button will run the file in the terminal with a single click!
+
+For more information: <https://code.visualstudio.com/docs/python/python-tutorial#_run-hello-world>
