@@ -1,14 +1,11 @@
-"""Baby's first Python script"""
+import gym
+env = gym.make("CartPole-v1")
+observation = env.reset()
+for _ in range(1000):
+    env.render()
+    action = env.action_space.sample() # your agent here (this takes random actions)
+    observation, reward, done, info = env.step(action)
 
-print('Hello, world!')
-
-from tkinter import *
-from tkinter import ttk
-
-window = Tk()
-window.title("Test Window")
-frm = ttk.Frame(window, padding=10)
-frm.grid()
-ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
-ttk.Button(frm, text="Quit", command=window.destroy).grid(column=1, row=0)
-window.mainloop()
+    if done:
+        observation = env.reset()
+env.close()

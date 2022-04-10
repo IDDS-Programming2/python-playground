@@ -58,5 +58,6 @@
 			"label": "Web VNC",
 			"onAutoForward": "openPreview"
 		}
-	}
+	},
+	"postCreateCommand": "pip install -r requirements.txt"
 }
