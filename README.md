@@ -1,6 +1,13 @@
 # Python Playground
 This is an empty python project for you to use to play with the language.
 
+## Graphical Interface
+
+* To access the graphical desktop, use the "preview in editor" or open in another browser to open <http://localhost:6080/>
+* Click "connect" and the password is `vscode`
+* Run python programs by normal means. Graphical programs will appear on this desktop. 
+* Right-click on the desktop to access the menu, which includes settings to change resolution.
+
 ## Step 1: Open a Terminal
 At the top of the screen, find the **Terminal** menu, and select **New Terminal**. You should see the following in the lower pane (except in pretty colors). This is your *command prompt.*
 
