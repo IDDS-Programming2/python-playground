@@ -37,7 +37,9 @@ A Python program is often called a *script.* To make a new script, simply create
 
 I've created one already for you: `hello_world.py`
 
-To run a script, use the command line. Type `python` followed by the name of the file. It will run the script once and return to the Linux command prompt.
+To run a script, click the run button in the upper-right corner of VSCode: ![Script run button](img/run_button.png)
+
+You may also use the command line to run a script. Type `python` followed by the name of the file. It will run the script once and return to the Linux command prompt.
 
 PRO TIP: you can use the **tab** key to let the command prompt auto-complete the typing of things once you've typed enough that it knows what you're talking about.
 
