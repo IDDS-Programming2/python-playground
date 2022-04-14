@@ -1,6 +1,14 @@
 {
     "editor.rulers": [
-        100
+        72, 99
     ],
-    "python.linting.pylintCategorySeverity.convention": "Hint"
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length",
+        "99",
+        "--max-doc-length",
+        "72"
+    ]
 }
